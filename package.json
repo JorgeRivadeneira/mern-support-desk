@@ -1,0 +1,25 @@
+{
+  "name": "mern-supportdesk",
+  "version": "1.0.0",
+  "description": "Support desk app with MERN",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node backend/server.ts",
+    "server": "nodemon backend/server.ts"
+  },
+  "author": "Jorge Rivadeneira",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}

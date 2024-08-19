@@ -71,7 +71,7 @@ const deleteTicket = asyncHandler(async (req: any, res: any) => {
 export const getTickets = asyncHandler(async(req: any, res: any) => {
     //get user using the id in JWT
     const user = await User.findById(req.user.id);
-    console.log(user);
+    console.log('***',user);
     
     if(!user){
         res.status(401)
